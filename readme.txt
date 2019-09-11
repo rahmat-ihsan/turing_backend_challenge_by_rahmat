@@ -1,0 +1,3 @@
+- Please read README.md for the tools and technique I used.
+- Please read Error's Documentation
+- Please read Advanced Requirements
