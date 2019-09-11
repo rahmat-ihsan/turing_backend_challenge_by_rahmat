@@ -50,7 +50,7 @@ mysql -u <dbuser> -D <databasename> -p < ./src/database/database.sql
 Check [here](https://docs.google.com/document/d/1J12z1vPo8S5VEmcHGNejjJBOcqmPrr6RSQNdL58qJyE/edit?usp=sharing)
 
 ## Error Documentation
-Check in outer folder
+Check in this folder
 
 ## Tools
 I use these tools :
@@ -64,4 +64,4 @@ I use this technique :
 - Transaction for create order (orders and order_detail), so that if something happen in the middle of process, it can be automatically rolled back by database (ACID principle). Example : a customer take order with 4 item, then 2 item has been save, but server down, then it rolled back.
 
 ## Advanced Requirement
-Check in outer folder
+Check in this folder
